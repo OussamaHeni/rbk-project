@@ -32,16 +32,38 @@ body {
   color: white;
 }
 
+form{
+	padding:40px;
+}
 
-button.calcule {
+.result{
+	margin:40px 0;
+}
+
+.result .title{
+	text-align:center;
+}
+
+.button {
     padding: 12px ;
     font-size: 18px;
     font-family: montserrat;
     border-radius: 4px;
-    background-color: #0082cb;
+    background-color: dodgerblue;
     background-image: none;
     font-weight: 500;
     margin: : auto;
+    color: white;
+}
+
+input[type=number], select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;*/
 }
 
 input[type=text], select {
@@ -52,3 +74,9 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+
+  .result.title{
+    text-align: left;
+}
