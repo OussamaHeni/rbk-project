@@ -33,3 +33,22 @@ body {
 }
 
 
+button.calcule {
+    padding: 12px ;
+    font-size: 18px;
+    font-family: montserrat;
+    border-radius: 4px;
+    background-color: #0082cb;
+    background-image: none;
+    font-weight: 500;
+    margin: : auto;
+}
+
+input[type=text], select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
