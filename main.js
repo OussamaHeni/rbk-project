@@ -3,8 +3,8 @@ $(document).ready(function(){
 $(function(){
 	var form = $("form");
 	
-	form.on("submit", function(e){
-		e.preventDefault();
+	form.on("submit", function(){
+		
 		var resultDiv = $(".result .title");
 		
 		function calcBMI(){
