@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-$(function(){
+
 	var form = $("form");
 	
 	form.on("submit", function(){
@@ -41,9 +41,6 @@ $(function(){
 		
 		resultDiv.html("Your BMI is  " + calcBMI() + " :  " + bmiState());
 	});
-});
-
-
 
 })
 
