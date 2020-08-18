@@ -8,7 +8,7 @@ $(document).ready(function(){
 		var resultDiv = $(".result .title");
 		
 		function calcBMI(){
-			var weight = $("#weight").val();
+			var weight = $("#weight").val();      // this function calculate the bmi
 	    var height = $("#height").val();
 			var bmi = weight / (height * height);
 			return bmi.toFixed(2);
@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 		function bmiState(){
 			if(calcBMI() < 16.9 ){
-				return "Very underweight you are in the danger zone";
+				return "Very underweight you are in the danger zone";   //this function compare bmi and return a string 
 			}
 			if(calcBMI() > 17 && calcBMI() < 18.4 ){
 				return "Under weight you need to eat more";
